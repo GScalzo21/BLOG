@@ -1,4 +1,6 @@
-# 🧠 Giuseppe Scalzo's Cybersecurity Blog
+#  Giuseppe Scalzo's Cybersecurity Blog
+
+![94f75d4d-55df-46eb-b40c-402750cb831c](https://github.com/user-attachments/assets/4da86ef0-319b-4aaf-b8b4-988127c54397)
 
 Welcome to my cybersecurity blog — a space where I document my hands-on journey transitioning from law enforcement to the world of Blue Team operations.
 
