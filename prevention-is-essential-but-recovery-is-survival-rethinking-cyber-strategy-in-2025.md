@@ -20,14 +20,12 @@ In the SOC world, we tend to hyper-focus on prevention — firewalls, endpoint p
 
 ## Attackers Don’t Just Want In — They Want to Burn It Down
 
-Cyberattacks in 2025 have evolved. Hackers aren't just stealing files anymore; they're encrypting everything — production systems, backup infrastructure, even disaster recovery pipelines.
+Cyberattacks in 2025 aren’t just about data theft anymore—they’ve escalated into full-blown destruction. Hackers are targeting everything: production systems, backups, even disaster recovery environments. They're not just after information; they’re aiming to cripple entire operations. We’re no longer dealing with random malware or drive-by attacks. These threat actors are strategic. They know your backups are your last line of defense, and their goal is to eliminate them before you ever hit restore.
 
-We're not talking about opportunistic malware anymore. These actors are calculated. They know your backups are your safety net, and they're cutting the net before you even jump.
+As Smith put it:
+“They’re not just breaking into your house—they’re stealing the spare key and torching the escape plan.”
 
-Smith put it well:  
-> “They’re not just breaking into your house — they’re stealing the spare key and torching the escape plan.”
-
-That’s the world we’re operating in. And if you're part of a blue team, an incident response team, or even learning the ropes like I am — that should make you pause.
+That kind of calculated aggression should give anyone in cybersecurity a reason to pause. Whether you’re leading a blue team, managing incident response, or still learning the ropes like I am, the message is clear: traditional defenses aren’t enough. You need layered resilience, airtight recovery plans, and constant readiness for when—not if—the worst happens.
 
 ---
 
@@ -47,44 +45,30 @@ Worse, even when backups survive, they often can’t get critical systems like c
 
 ## What Good Recovery Looks Like
 
-Let’s make this practical. Here are the core principles I’ve been studying — and soon labbing out myself:
+### How to Get Recovery Right  
+So, how do you make sure your backups save the day? Here are some practical steps:
 
-### 3-2-1 Backup Rule  
-- 3 copies of your data  
-- 2 on different media (e.g., cloud + disk)  
-- 1 offsite or immutable  
+- **Use the 3-2-1 Backup Rule:** Keep three copies of your data — two on different storage types (like local disk and cloud), and one offsite or in an immutable format. This aligns with NIST 800-53 (CP-9), ISO 27001 (A.12.3), and CIS Control 11 — yet many organizations still fail to implement it properly.
 
-This rule aligns with NIST 800-53 (Control CP-9), ISO 27001 (A.12.3), and CIS Control 11 (Data Recovery). And yet, so many companies still don’t follow it.
+- **Test Like You Mean It:** Backups are only useful if they’ve been tested. Simulate ransomware, outages, and file corruption, then verify whether your team can recover within your defined Recovery Time Objective (RTO). It's like owning a fire extinguisher but never checking if it works.
 
-### Test Like You Mean It  
-Running backups without testing is like owning a fire extinguisher and never checking the pressure. You have to simulate ransomware, outages, file corruption — and see if your team can recover within a reasonable RTO (Recovery Time Objective).
+- **Harden the Backups:** Use Azure Blob Immutability or AWS S3 Object Lock to protect backups from tampering. Store encryption keys in a separate vault, and apply strict least privilege access controls to every backup location.
 
-### Harden the Backups  
-- Use Azure blob immutability or AWS S3 Object Lock  
-- Store keys in a separate vault  
-- Apply least privilege access to backup storage  
-
-### Rethink Budget Priorities  
-It’s easy to get caught up in shiny prevention tools. But even a 10% shift in budget toward testing, backup tooling, and recovery training can be the difference between a stressful weekend and a total business loss.
+- **Rethink Budget Priorities:** Prevention tools get the spotlight, but recovery is what gets you back online. Even shifting 10% of your budget toward backup infrastructure, testing, and training can dramatically improve resilience after a breach.
 
 ---
 
-## Real World, Real Stakes
+### Why No Industry Is Immune  
+Here’s the hard truth: recovery gaps exist everywhere. From small startups to hospitals to large enterprises, most organizations aren’t prepared to bounce back from a full-scale cyber incident. Recent findings suggest that less than 1% of businesses have a truly survivable, tested backup and recovery strategy in place.  
 
-Think about it:
+That’s a major red flag. Even well-funded companies often get it wrong by placing too much trust in vendor promises or legacy backup systems that can’t withstand today’s evolving threats. It’s not just a technology issue — it’s a mindset shift the industry needs to make.
 
-- A ransomware attack encrypts your database. Your backups? Also gone — attacker accessed the same credentials.  
-- Your DR environment? Also hosted in the same cloud region — and also compromised.  
-- Your team? Never practiced an emergency failover.
-
-At that point, your customers are calling, your execs are panicking, and your options are slim.
 
 ---
 
 ## From the Street to the SOC: What Law Enforcement Taught Me About Cyber Resilience
 
 In my past life as a detective, the most critical moment wasn't when things were calm — it was the moment after chaos hit. That’s when the plan mattered. That’s when preparation made the difference. The same applies to cybersecurity.
-
 We spend hours writing detections, configuring alerts, and mapping MITRE tactics. But when the alert turns red — when that ransomware is real — the only thing that matters is this:
 
 > Can you get the business back online fast enough to survive?
@@ -94,14 +78,9 @@ We spend hours writing detections, configuring alerts, and mapping MITRE tactics
 ## Final Thoughts: Recovery Is the New Security Control
 
 Cybersecurity isn’t about stopping every attack. That’s a fantasy. It’s about surviving them — and recovery is the unsung hero in that story.
-
 If you’re in school, breaking into the field, or already working in a SOC — build your detection skills, yes. But also ask: What happens if our systems go down right now? Could we recover?
-
 That’s the mindset I’m leaning into as I keep learning, building labs, and sharing what I find here.
 
 ---
 
-**Coming soon:** I’ll be working on a backup and recovery-focused lab — simulating ransomware and testing cloud immutability options.  
-If you’re doing something similar or want to collaborate, feel free to connect.
-
-*— Giuseppe Scalzo, June 2025*
+*— Giuseppe Scalzo, June 23rd, 2025*
