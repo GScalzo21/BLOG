@@ -33,9 +33,11 @@ Once on-site, Pritchard uses tactics like tailgating or physically jamming gates
 ---
 
 ## Reaching the Target & Social Confidence  
-Once inside, he figures out the path to the objective. If needed, he’ll casually ask for help—“My badge isn’t scanning, mind letting me in?” He keeps conversations short and polite, making people feel good without drawing too much attention.  
+Once inside, he figures out the path to the objective. If needed, he’ll casually ask for help—“My badge isn’t scanning, mind letting me in?” He keeps conversations short and polite, making people feel good without drawing too much attention. In one example, he chatted with a woman in a blue polka-dot dress who happened to be in HR. Without hesitation, she scanned him in—just trying to help someone who seemed friendly and confident. He even asked a few people for directions to a specific desk number so it looked like he had legitimate business there. And just like that, he was in deeper without anyone batting an eye.
 
-**My take:** This was one of the most important parts of the talk. The way you make people feel can be more powerful than any exploit. The psychological aspect of social engineering can override logic—people *want* to help someone who seems relatable and harmless. Confidence is contagious. That’s something I’ve seen firsthand in law enforcement: the way you carry yourself can open doors, literally and figuratively.
+**My take:** This was one of the most important parts of the talk. The way you make people feel can be more powerful than any exploit. The psychological aspect of social engineering can override logic—people want to help someone who seems relatable and harmless. Confidence is contagious. That’s something I’ve seen firsthand in law enforcement: the way you carry yourself can open doors, literally and figuratively.
+
+What really struck me was how he blended in not just physically, but socially. When you speak confidently—especially to someone who appears to hold authority—no one really questions if you’re supposed to be there. If you look like you belong and act like you belong, people assume you do. It’s both fascinating and a little alarming. Sometimes, the best disguise isn’t a costume—it’s just charisma and timing.
 
 ---
 
