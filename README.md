@@ -12,6 +12,8 @@ Whether you're just getting started, switching careers, or diving deeper into de
 
 ## 💬 BLOG
 
+**🔐 [How Social Engineers Bypass Security – A Real World Look](https://github.com/GScalzo21/BLOG/blob/GScalzo21/How%20-Social-Engineers-Bypass-Security-A-Real-World-Look.md)** July 1st, 2025
+
 **[🔍 Search Parameter Injection: The Scam You Didn’t See Coming](https://github.com/GScalzo21/BLOG/blob/GScalzo21/Search-Parameter-Injection-The-Scam-You-Didn%E2%80%99t-See-Coming.md)** June 24th, 2025
 
 **[🧯Prevention Is Essential, But Recovery Is Survival](https://github.com/GScalzo21/BLOG/blob/GScalzo21/prevention-is-essential-but-recovery-is-survival-rethinking-cyber-strategy-in-2025.md)** June 23rd, 2025
