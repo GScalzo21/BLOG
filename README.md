@@ -20,7 +20,6 @@ Whether you're just getting started, switching careers, or diving deeper into de
 
 **[🧯Prevention Is Essential, But Recovery Is Survival](https://github.com/GScalzo21/BLOG/blob/GScalzo21/prevention-is-essential-but-recovery-is-survival-rethinking-cyber-strategy-in-2025.md)** June 23rd, 2025
 
-**[☁️Navigating the Cloud: A Newcomer's Journey with Azure and AWS](https://github.com/GScalzo21/BLOG/blob/GScalzo21/NavigatingtheCloud:ANewcomer'sJourneywith%20AzureandAWS.md)** June 9th, 2025
 
 **[🛡️ From Detective to Defender: How One Conversation Sparked My Cybersecurity Career](https://github.com/GScalzo21/BLOG/blob/GScalzo21/FromDetectivetoDefender.md)** June 2nd, 2025
 
